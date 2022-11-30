@@ -9,7 +9,7 @@ export default function Explanation(){
     const navigation = useNavigation();
 
     const handleSetShowHome =()=>{
-        navigation.navigate("home")
+        navigation.navigate("Home")
     }
 
     return(
