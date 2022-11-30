@@ -15,8 +15,9 @@ export default function AllPages(){
                 screenOptions={{
                     headerShown:false,
                 }}>
-                    <Stack.Screen name="Explanation" component={Explanation} />
+                    
                     <Stack.Screen name="Start" component={Start} />
+                    <Stack.Screen name="Explanation" component={Explanation} />
                     
 
                 </Stack.Navigator>
