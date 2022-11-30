@@ -1,6 +1,7 @@
 import React from "react";
 import { View, ScrollView, Text, StyleSheet } from "react-native";
 import DefaultButton from "../../components/commun/DefaultButton";
+import ExplanationCard from "../../components/explanation/explanationCard"
 
 export default function Explanation(){
     function handleSetShowHome(){
@@ -12,6 +13,7 @@ export default function Explanation(){
             <ScrollView>
                 <View style={{alignItems: "center"}}>
                     <Text style={Styles.title}>Antes, deixa {"\n"} eu te explicar...</Text>
+                    <ExplanationCard/>
                     <Text style={Styles.descriptionCta}>
                         Pronto para subir de nivel na vida?
                     </Text>
